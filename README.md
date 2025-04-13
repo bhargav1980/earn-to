@@ -1,73 +1,40 @@
-# Welcome to your Lovable project
+# Project Title
+LearnX - A Learn-to-Earn Education Platform
 
-## Project info
+## Selected Domain
+Web Development / EdTech
 
-**URL**: https://lovable.dev/projects/2e8dab3e-2952-4842-8bf1-748723920cb5
+## Problem Statement / Use Case
+How can we motivate students to complete online learning by rewarding their progress using crypto tokens?
 
-## How can I edit this code?
+## Abstract / Problem Description
+LearnX is a web-based educational platform that encourages students to complete courses and tasks in exchange for Aptos tokens. The goal is to gamify education and boost motivation by integrating crypto rewards for learning progress. Users can track course completion, quiz performance, and referrals through an interactive dashboard.
 
-There are several ways of editing your application.
+## Tech Stack Used
+- HTML, CSS, JavaScript
+- Chart.js
+- AOS Animation Library
+- GitHub Pages (for deployment)
 
-**Use Lovable**
+## Project Explanation
+LearnX consists of several key sections:
+- Dashboard with course tracking, token balance, referral system
+- Profile modal and quiz performance visualization
+- Responsive layout with animated transitions
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/2e8dab3e-2952-4842-8bf1-748723920cb5) and start prompting.
+### Screenshots
 
-Changes made via Lovable will be committed automatically to this repo.
+![Dashboard Screenshot](screenshots/dashboard.png)
+![Course Progress](screenshots/progress.png)
+![Referral Section](screenshots/referral.png)
 
-**Use your preferred IDE**
+> Screenshots are located in `/screenshots` folder.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## Hosted Demo (if available)
+https://yourusername.github.io/your-repo/
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## Team Members
+- Your Name (Frontend)
+- Teammate 1 (Design)
+- Teammate 2 (Integration)
 
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/2e8dab3e-2952-4842-8bf1-748723920cb5) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes it is!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
