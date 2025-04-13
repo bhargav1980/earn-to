@@ -12,6 +12,7 @@ LearnX is a web-based educational platform that encourages students to complete 
 
 ## Tech Stack Used
 - HTML, CSS, JavaScript
+- json, tailwind css
 - Chart.js
 - AOS Animation Library
 - GitHub Pages (for deployment)
