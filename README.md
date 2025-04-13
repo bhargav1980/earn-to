@@ -1,5 +1,5 @@
 # Project Title
-LearnX - A Learn-to-Earn Education Platform
+Learn2Earn - A Learn-to-Earn Education Platform
 
 ## Selected Domain
 Web Development / EdTech
