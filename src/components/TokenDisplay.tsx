@@ -1,5 +1,5 @@
 
-import { Coin } from "lucide-react";
+import { Coins } from "lucide-react";
 
 type TokenDisplayProps = {
   amount: number;
@@ -29,7 +29,7 @@ const TokenDisplay = ({
   return (
     <div className={`flex items-center gap-1 ${className} ${showAnimation ? 'animate-reward-pulse' : ''}`}>
       <div className={`text-brand-amber ${showAnimation ? 'token-glow' : ''}`}>
-        <Coin size={iconSizes[size]} />
+        <Coins size={iconSizes[size]} />
       </div>
       <span className={`${sizeClasses[size]}`}>{amount.toFixed(2)} APT</span>
     </div>
