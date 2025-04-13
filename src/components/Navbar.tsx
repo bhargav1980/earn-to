@@ -2,11 +2,17 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { Menu, X } from "lucide-react";
+import { Menu, X, LogOut } from "lucide-react";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const isLoggedIn = localStorage.getItem("isLoggedIn") === "true";
+
+  const handleLogout = () => {
+    localStorage.removeItem("isLoggedIn");
+    localStorage.removeItem("user");
+    window.location.href = "/";
+  };
 
   return (
     <header className="w-full bg-background border-b border-border sticky top-0 z-50">
@@ -47,12 +53,10 @@ const Navbar = () => {
               </Link>
               <Button
                 variant="destructive"
-                onClick={() => {
-                  localStorage.removeItem("isLoggedIn");
-                  localStorage.removeItem("user");
-                  window.location.href = "/";
-                }}
+                onClick={handleLogout}
+                className="flex items-center gap-2"
               >
+                <LogOut size={16} />
                 Logout
               </Button>
             </>
@@ -120,13 +124,10 @@ const Navbar = () => {
                 </Link>
                 <Button
                   variant="destructive"
-                  onClick={() => {
-                    localStorage.removeItem("isLoggedIn");
-                    localStorage.removeItem("user");
-                    window.location.href = "/";
-                  }}
-                  className="w-full"
+                  onClick={handleLogout}
+                  className="w-full flex items-center justify-center gap-2"
                 >
+                  <LogOut size={16} />
                   Logout
                 </Button>
               </>
