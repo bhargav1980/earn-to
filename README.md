@@ -8,7 +8,7 @@ Web Development / EdTech
 How can we motivate students to complete online learning by rewarding their progress using crypto tokens?
 
 ## Abstract / Problem Description
-LearnX is a web-based educational platform that encourages students to complete courses and tasks in exchange for Aptos tokens. The goal is to gamify education and boost motivation by integrating crypto rewards for learning progress. Users can track course completion, quiz performance, and referrals through an interactive dashboard.
+Learn2Earn is a web-based educational platform that encourages students to complete courses and tasks in exchange for Aptos tokens. The goal is to gamify education and boost motivation by integrating crypto rewards for learning progress. Users can track course completion, quiz performance, and referrals through an interactive dashboard.
 
 ## Tech Stack Used
 - HTML, CSS, JavaScript
@@ -18,7 +18,7 @@ LearnX is a web-based educational platform that encourages students to complete 
 - GitHub Pages (for deployment)
 
 ## Project Explanation
-LearnX consists of several key sections:
+Learn2Earn consists of several key sections:
 - Dashboard with course tracking, token balance, referral system
 - Profile modal and quiz performance visualization
 - Responsive layout with animated transitions
@@ -32,10 +32,6 @@ LearnX consists of several key sections:
 > Screenshots are located in `/screenshots` folder.
 
 ## Hosted Demo (if available)
-https://yourusername.github.io/your-repo/
+[https://yourusername.github.io/your-repo/](https://github.com/bhargav1980/earn-to.git)
 
-## Team Members
-- Your Name (Frontend)
-- Teammate 1 (Design)
-- Teammate 2 (Integration)
 
